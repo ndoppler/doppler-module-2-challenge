@@ -61,7 +61,7 @@ margin-top: 2%;
     text-align: center;
 }
 
-.divider {
+.divider-1 {
     height: 100px; /* Adjust the height of the vertical line */
     width: 1px; /* Width of the vertical line */
     background-color: #ffffff; /* Color of the vertical line */
@@ -72,4 +72,51 @@ margin-top: 2%;
     display: inline-block;
     margin-left: 20px;
     font-size: 100%;
+}
+
+.my-work {
+    display: flex;
+    background: #343434;
+    color: #ffffff;
+    justify-content: space-around;
+    width: 100%;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+.my-work h2 {
+    margin: 0px 20px;
+    padding-left: 100px;
+    font-size: 250%;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.divider-2 {
+    height: 1500px; /* Adjust the height of the vertical line */
+    width: 1px; /* Width of the vertical line */
+    background-color: #ffffff; /* Color of the vertical line */
+    margin: 0 20px; /* Adjust the spacing around the vertical line */
+}
+
+.my-work p {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 100%;
+}
+
+.secondary-display {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows with equal height */
+    gap: 10px; /* Space between grid items */
+}
+
+.card {
+    background-color: aqua;
+    width: 50%;
+    height: 50px;
+    padding: 20px 50px;
 }
