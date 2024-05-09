@@ -91,7 +91,6 @@ margin-top: 2%;
     text-decoration: underline;
     font-style: italic;
     text-align: center;
-
 }
 
 .divider-2 {
@@ -101,10 +100,16 @@ margin-top: 2%;
     margin: 0 20px; /* Adjust the spacing around the vertical line */
 }
 
-.my-work p {
-    display: inline-block;
-    margin-left: 20px;
-    font-size: 100%;
+.my-work-display {
+    width: 87%;
+    display: grid;
+    align-content: flex-start;
+}
+
+.primary-display {
+    background-color: brown;
+    width: 95%;
+    min-height: 250px;
 }
 
 .secondary-display {
@@ -112,11 +117,14 @@ margin-top: 2%;
     grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
     grid-template-rows: repeat(2, 1fr); /* 2 rows with equal height */
     gap: 10px; /* Space between grid items */
+    height: ;
 }
 
 .card {
     background-color: aqua;
     width: 50%;
-    height: 50px;
+    height: 150px;
     padding: 20px 50px;
+    justify-content: space-between;
+
 }
