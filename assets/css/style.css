@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+main {
+display: flex;
+flex-wrap: wrap;
+margin-top: 2%;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    vertical-align: middle;
+    background: #13293d;
+    color: #ffffff;
+}
+
+.site-header h1 {
+    font-size: 200%;
+    text-align: start;
+    
+}
+
+.site-header li {
+    display: inline-block;
+    font-size: 150%;
+    text-align: end;
+}
+
+.about-me {
+    padding: 10px 50px;
+    background: #343434;
+    justify-content: space-around;
+}
+
+.about-me header {
+    text-align: start;
+}
+
+.about-me p {
+    text-align: end;
+}
